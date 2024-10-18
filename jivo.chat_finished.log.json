@@ -1,0 +1,59 @@
+{
+    "event_name":"chat_finished",
+    "widget_id":"WMb8XnGlfY",
+    "user_token":null,
+    "visitor":{
+        "name":"владимир",
+        "email":"kva@cn.ru",
+        "phone":"79039338939",
+        "description":null,
+        "number":5461159,
+        "chats_count":3
+    },
+    "organization":null,
+    "status":null,
+    "assigned_agent":null,
+    "tags":[],
+    "chat_id":746202,
+    "topic":null,
+    "session":{
+        "geoip":{
+            "region_code":"NVS",
+            "country_code":"RU",
+            "country":"Russia",
+            "region":"Novosibirsk Oblast, Novosibirskiy Rayon",
+            "city":"Novosibirsk",
+            "isp":"",
+            "latitude":"55.028100",
+            "longitude":"82.911900",
+            "organization":"Novotelecom Ltd"
+        },
+        "utm":"campaign=(referral)|source=ya.ru|medium=referral|content=/",
+        "utm_json": {
+            "campaign":"(referral)","source":"ya.ru","medium":"referral","content":"/"
+        },
+        "user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36"},
+        "page":{
+            "url":"https://rkzkabel.nt-rt.ru/price/product/1331156?ysclid=lvop7jyz3h462317725",
+            "title":"РЫБИНСККАБЕЛЬ ППСТВМнг(А) 1000 240 Кабель для электротранспорта термоэластопласт/медь/термоэластопласт - Купить кабели"
+        },
+        "analytics":null,
+        "agents":[
+            {
+                "id":1629673,"email":"017.ntrt@gmail.com","name":"017 - Малюкова Марина"
+            }
+        ],
+        "chat":{
+            "messages":[
+                {"message":"нет заявку не отправлял.","timestamp":1715043433,"type":"visitor"},
+                {"message":"Здравствуйте!","timestamp":1715051332,"type":"agent","agent_id":1629673},
+                {"message":"хочет купить: кабель ППСТВМнг(А) 1000 240 Количество - 135 м","timestamp":1715051354,"type":"agent","agent_id":1629673},
+                {"message":"Владимир,  Ваша заявка принята. В ближайшее время  специалист с вами свяжется","timestamp":1715051369,"type":"agent","agent_id":1629673},
+                {"message":"Контакты ответственного : 930@nt-rt.ru","timestamp":1715051387,"type":"agent","agent_id":1629673},
+                {"message":"Спасибо, что обратились к нам!","timestamp":1715051393,"type":"agent","agent_id":1629673}
+            ],
+            "blacklisted":false,
+            "invite_timestamp":1715051328
+        },
+        "plain_messages":"[Visitor владимир] - 2024-05-07 03:57:13 - нет заявку не отправлял.\n[Agent 017 - Малюкова Марина] - 2024-05-07 06:08:52 - Здравствуйте!\n[Agent 017 - Малюкова Марина] - 2024-05-07 06:09:14 - хочет купить: кабель ППСТВМнг(А) 1000 240 Количество - 135 м\n[Agent 017 - Малюкова Марина] - 2024-05-07 06:09:29 - Владимир,  Ваша заявка принята. В ближайшее время  специалист с вами свяжется\n[Agent 017 - Малюкова Марина] - 2024-05-07 06:09:47 - Контакты ответственного : 930@nt-rt.ru\n[Agent 017 - Малюкова Марина] - 2024-05-07 06:09:53 - Спасибо, что обратились к нам!","html_messages":"\u003cp\u003e\u003cstrong\u003eVisitor владимир\u003c/strong\u003e\u003cbr\u003e2024-05-07 03:57:13\u003cbr\u003eнет заявку не отправлял.\u003c/p\u003e\u003cbr\u003e\u003cp\u003e\u003cstrong\u003eAgent 017 - Малюкова Марина\u003c/strong\u003e\u003cbr\u003e2024-05-07 06:08:52\u003cbr\u003eЗдравствуйте!\u003c/p\u003e\u003cbr\u003e\u003cp\u003e\u003cstrong\u003eAgent 017 - Малюкова Марина\u003c/strong\u003e\u003cbr\u003e2024-05-07 06:09:14\u003cbr\u003eхочет купить: кабель ППСТВМнг(А) 1000 240 Количество - 135 м\u003c/p\u003e\u003cbr\u003e\u003cp\u003e\u003cstrong\u003eAgent 017 - Малюкова Марина\u003c/strong\u003e\u003cbr\u003e2024-05-07 06:09:29\u003cbr\u003eВладимир,  Ваша заявка принята. В ближайшее время  специалист с вами свяжется\u003c/p\u003e\u003cbr\u003e\u003cp\u003e\u003cstrong\u003eAgent 017 - Малюкова Марина\u003c/strong\u003e\u003cbr\u003e2024-05-07 06:09:47\u003cbr\u003eКонтакты ответственного : 930@nt-rt.ru\u003c/p\u003e\u003cbr\u003e\u003cp\u003e\u003cstrong\u003eAgent 017 - Малюкова Марина\u003c/strong\u003e\u003cbr\u003e2024-05-07 06:09:53\u003cbr\u003eСпасибо, что обратились к нам!\u003c/p\u003e"
+} 

@@ -1,0 +1,36 @@
+{
+    "event_name":"offline_message",
+    "widget_id":"WMb8XnGlfY",
+    "user_token":null,
+    "visitor":{
+        "name":"Сергей",
+        "email":"ChiefASU-Dulisma@yandex.ru",
+        "phone":"79647512240",
+        "description":null,
+        "number":5461478,
+        "chats_count":3
+    },
+    "organization":null,
+    "status":null,
+    "assigned_agent":null,
+    "tags":[],
+    "chat_id":746201,
+    "topic":null,
+    "session":{
+        "geoip":{
+            "region_code":"MOW","country_code":"RU","country":"Russia","region":"Moscow, Moscow","city":"Moscow","isp":"","latitude":"55.756900",
+            "longitude":"37.700700","organization":"Vimpelcom Irkutsk"
+        },
+        "utm":"campaign=(direct)|source=(direct)",
+        "utm_json":{"campaign":"(direct)","source":"(direct)"},
+        "ip_addr":"195.68.139.170",
+        "user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36"
+    },
+    "page":{"url":"https://electron.nt-rt.ru/#information","title":"Каталог Электрон - купить профессиональное оборудование в России и СНГ с доставкой"},
+    "analytics":null,
+    "message":"Добрый день. Так и нет ответа от вашего специалиста.",
+    "offline_message_id":1715043105847
+}
+
+
+   

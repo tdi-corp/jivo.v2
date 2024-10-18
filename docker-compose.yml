@@ -1,0 +1,50 @@
+name: jivo
+services:
+  webserver:
+    image: nginx:alpine
+    volumes:
+      - ./api/public:/var/www/public:ro
+      - ./api/storage/app/public:/var/www/public/storage/:ro
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    ports:
+      - 8000:80
+    depends_on:
+      - api      
+  api:
+    image: api
+    build:
+      context: ./api
+    volumes:
+      - ./api/:/var/www/
+      - /var/www/vendor
+    env_file:
+      - ./api/.env.dev
+    environment:
+      CONTAINER_ROLE: api
+      
+  db:
+    image: mysql:8.0.32
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+    ports:
+      - 3306:3306
+    volumes:
+      - db-data:/var/lib/mysql/ 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    links:
+      - db    
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    depends_on:
+      - db      
+volumes:
+  db-data:
+    driver: local

@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('jivosite_webhook_messages', function (Blueprint $table) {
             $table->id();
+            $table->integer('jivosite_webhook_id'); //
+            $table->string('message'); //
+            $table->integer('timestamp'); //
+            $table->string('type'); // ‘visitor’ для offline_message
+            $table->integer('agent_id')->nullable(); //null для offline_message
             $table->timestamps();
         });
     }

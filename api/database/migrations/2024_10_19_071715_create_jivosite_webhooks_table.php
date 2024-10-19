@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('jivosite_webhooks', function (Blueprint $table) {
             $table->id();
-            $table->string('event_name'); //+
+            $table->string('event_name')->default(''); //+
             $table->string('widget_id'); //+
             $table->string('visitor_name'); //+
             $table->string('visitor_email'); //+
             $table->string('visitor_phone'); //+
-            $table->string('visitor_description'); //+
+            $table->string('visitor_description')->nullable(); //+
             $table->string('visitor_number'); //+
             $table->integer('chat_id'); //+
             $table->string('session_geoip_country')->nullable(); //+

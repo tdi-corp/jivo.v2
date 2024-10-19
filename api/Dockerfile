@@ -68,7 +68,7 @@ COPY start.sh /usr/local/bin/start
 RUN chmod +x /usr/local/bin/start
 # COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-USER $USER
+# USER $USER
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000

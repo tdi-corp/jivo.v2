@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('event_name')->default(''); //+
             $table->string('widget_id'); //+
-            $table->string('visitor_name'); //+
-            $table->string('visitor_email'); //+
-            $table->string('visitor_phone'); //+
+            $table->string('visitor_name')->nullable(); //+
+            $table->string('visitor_email')->nullable(); //+
+            $table->string('visitor_phone')->nullable(); //+
             $table->string('visitor_description')->nullable(); //+
             $table->string('visitor_number'); //+
             $table->integer('chat_id'); //+
@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('session_utm_json_content')->nullable(); //+
             $table->string('session_utm_json_medium')->nullable(); //+
             $table->string('session_utm_json_term')->nullable(); //+
-            $table->string('page_title'); //+
+            $table->string('page_title')->nullable();  //+
             $table->string('page_url'); //+
             $table->timestamps();
         });

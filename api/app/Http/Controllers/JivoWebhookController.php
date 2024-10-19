@@ -28,6 +28,7 @@ class JivoWebhookController extends Controller
 
         return response()
             ->json([
+                'result' => 'ok',
                 'ok' => true,
                 'request_test' => [
                     'event_name' => $request->event_name

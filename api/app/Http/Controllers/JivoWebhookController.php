@@ -25,19 +25,12 @@ class JivoWebhookController extends Controller
             return response()
                 ->json([
                     'ok' => false,
-                ]);
+                ], 400);
         }
-
-        // return response()
-        // ->json([
-        //     'ok' => false,
-        //     'type' => $request->session['utm_json']['contentd'] ?? null
-        // ]);
 
         $validator = Validator::make($request->all(), [
             'event_name' => 'required',
             'widget_id' => 'required',
-
             'visitor' => 'required',
             'visitor.name' => 'nullable',
             'visitor.email' => 'nullable',

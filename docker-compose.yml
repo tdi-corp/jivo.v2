@@ -24,15 +24,18 @@ services:
       
   db:
     image: mysql:8.0.32
+    restart: unless-stopped
+    tty: true    
     environment:
-      MYSQL_ROOT_PASSWORD: laravel
       MYSQL_DATABASE: laravel
+      MYSQL_ROOT_PASSWORD: laravel
       MYSQL_USER: laravel
       MYSQL_PASSWORD: laravel
     ports:
       - 3306:3306
     volumes:
-      - db-data:/var/lib/mysql/ 
+      - db-data:/var/lib/mysql/
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     links:

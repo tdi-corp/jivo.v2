@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\JivoWebhookController;
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:sanctum');
+Route::post('/jivo-webhook', [JivoWebhookController::class, 'webhook']);
+// Route::get('/jivo-webhook-test', [JivoWebhookController::class, 'webhook']);

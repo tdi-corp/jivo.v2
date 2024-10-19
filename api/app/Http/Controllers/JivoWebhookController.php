@@ -15,7 +15,7 @@ class JivoWebhookController extends Controller
 
         $event_name = $request->event_name;
 
-        // if wrong event_name
+        /** if wrong event_name */
         if(!in_array($event_name, $request_only)) 
         {
             return response()
